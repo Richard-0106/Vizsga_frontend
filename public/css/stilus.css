@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+main{
+    width:80%;
+    margin:auto;
+    max-width: 1500px;
+    background-color: white;
+}
+
+section{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.valaszok{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+    background: white;
+  
+}
+#teszt-valaszto{
+    margin:10px;
+}
+
+.valaszok>div{
+    border:1px solid gray;
+    margin:3px;
+    color:saddlebrown;
+}
+.kerdes{
+    background-color:saddlebrown;
+    color:white;
+}
+@media only screen and (max-width: 800px) {
+    main {
+        width:97%;
+      
+    }
+    .valaszok{
+        grid-template-columns: 1fr;
+    }
+
+}
