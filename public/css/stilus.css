@@ -19,22 +19,28 @@ section{
     grid-template-columns: 1fr 1fr;
     grid-gap: 1px;
     background: white;
-  
+    text-align: center;
+    
 }
 #teszt-valaszto{
     margin:10px;
 }
-
+.sor{
+    padding-bottom:30px;
+}
 .valaszok>div{
     border:1px solid gray;
     margin:3px;
     color:saddlebrown;
+    border-radius: 3px;
 }
 .kerdes{
     background-color:saddlebrown;
     color:white;
+    border-radius: 5px;
+    padding:8px 3px 8px 3px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
     main {
         width:97%;
       
